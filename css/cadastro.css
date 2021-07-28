@@ -1,0 +1,93 @@
+
+/*tirullo da pagina. TODO centralizar */
+.titulo{
+    font-family: sans-serif;
+    color: rgb(113, 113, 255);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+    
+}
+
+/*TODO ver para diminuir o espaço em branco*/
+.formulario ,.login{
+    width: 50%;
+    background-color: white;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20px;
+    padding: 10px 0px 125px 25%;
+}
+
+/*apaga a linha em volta das divs*/
+fieldset{
+    border: 0;
+}
+
+/**/
+body{
+    background-color: #38f094;
+    font-family: sans-serif;
+    font-size: 1em;
+
+
+}
+#nome{
+    margin-left:5%;
+}
+.nomes{
+    margin-bottom: 20px;
+}
+#email{
+    color:red;
+}   
+
+.botao{
+     font-size: 1.2em;
+     background: rgb(19, 109, 211);
+     color: #ffffff;
+     padding: 0.2em 0.6em;
+     box-shadow: 2px 2px 2px (0,0,0,0.2);
+     text-shadow: 1px 1px 1px (0,0,0,0.5);
+     position: absolute;
+     display: block;
+     margin-top:5%;
+     transform: (-50%, -50%);
+     
+
+ }
+ 
+.botao:hover{
+    background: rgb(0, 79, 168);
+    box-shadow: inset 2px 2px 2px  rgba(0,0,0,0.2);
+}
+
+.img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.login{
+    width: 200px;
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 90px 90px 130px 90px;
+  }
+.login-texto{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1cm;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.profisaum ,.sangue{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}

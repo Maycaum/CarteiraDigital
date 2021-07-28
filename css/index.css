@@ -1,0 +1,17 @@
+* {
+    text-align-last: center;
+    background-color:#38f094;
+}
+
+.bot:hover{
+    background: grey;
+    box-shadow: inset 2px 2px 2px  rgba(0,0,0,0.2);
+}
+.bot{
+    transform: (-50%, -50%);
+    margin-bottom: 1.2em;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: honeydew;
+
+}
